@@ -1,0 +1,117 @@
+// Top Header start
+
+.element_widget_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  // padding:5px 5px ;
+}
+.element_widget_container_first {
+  display: flex;
+  justify-content: space-evenly;
+}
+.element-icon-list-item span {
+  margin-left: 15px;
+}
+.bar {
+  border: 0.05px solid rgb(124, 122, 122);
+}
+.element-icon-list-item {
+  list-style: none;
+}
+.element-icon-list-items {
+  display: flex;
+}
+.login-btn a {
+  text-decoration: none;
+  color: black;
+}
+
+// Top Header End
+// -----------------------------
+// Middle Header Start
+.middle_header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+}
+.middle-icon-list-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+.middle-item {
+  position: relative;
+}
+.middle-item-count {
+  position: absolute;
+  background-color: rgb(167, 167, 32);
+  padding: 4px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  left: 25px;
+  top: -7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle_center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+// Middle Header End
+// --------------------------------
+// Bottom Header start
+.bottom_header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //   background-color: green;
+  //   height: 200px;
+}
+
+.bottom_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #fed700;
+  padding: 1.5rem 3rem;
+  color: white;
+}
+.bottom_select {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.bottom_right {
+  line-height: 0%;
+  padding: 1rem 3rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.bottom_right h3 {
+  color: blue;
+}
+.bottom_right:hover {
+  background-color: black;
+  color: white;
+  transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: 1.5s;
+}
+
+//
+// Bottom Header End
+//---------------------------------
