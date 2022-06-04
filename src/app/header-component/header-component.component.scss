@@ -1,6 +1,18 @@
+// All Section CSS
+.middle_header_container{
+  padding: 2rem 3rem;
+}
+.bottom_header_container {
+  padding: 0rem 3rem;
+}
+
+.top_header_container {
+  padding: 10px 3rem;
+}
+
 // Top Header start
 
-.element_widget_container {
+.top_header_container {
   display: flex;
   justify-content: space-between;
   background-color: #f5f5f5;
@@ -14,7 +26,7 @@
   margin-left: 15px;
 }
 .bar {
-  border: 0.05px solid rgb(124, 122, 122);
+  border: 0.05px solid rgb(212, 195, 195);
 }
 .element-icon-list-item {
   list-style: none;
@@ -63,14 +75,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 2rem;
 }
-
+.middle_center_select {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
 // Middle Header End
 // --------------------------------
 // Bottom Header start
 .bottom_header_container {
   display: flex;
+  div:nth-of-type(2) {
+    flex-grow: 0.5;
+  }
   justify-content: space-between;
   align-items: center;
   //   background-color: green;
@@ -94,24 +114,53 @@
 }
 
 .bottom_right {
-  line-height: 0%;
+  // line-height: 0%;
   padding: 1rem 3rem;
   border: 1px solid gray;
   border-radius: 5px;
   text-align: center;
-  overflow: hidden;
+  color: rgba(43, 43, 245, 0.692);
+  font-family: "Rubik", sans-serif;
+}
+.bottom_right > h3 {
+  margin: 0;
 }
 
-.bottom_right h3 {
-  color: blue;
+.bottom_right div {
+  color: #b6aaaa;
 }
+
 .bottom_right:hover {
   background-color: black;
   color: white;
-  transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
   transition: 1.5s;
 }
 
+.bottom_middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(240, 228, 228);
+  border-radius: 5px;
+}
+.bottom_middle_select {
+  background: transparent;
+  border: none;
+  border-left: 2px solid rgb(204, 197, 197);
+  outline: none;
+  color: rgb(94, 86, 86);
+}
+.bottom_input {
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+}
+.bottom_search_icon {
+  background-color: #fed700;
+  padding: 1.5rem 2rem;
+  color: white;
+}
 //
 // Bottom Header End
 //---------------------------------
+
