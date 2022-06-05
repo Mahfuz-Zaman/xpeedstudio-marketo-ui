@@ -1,0 +1,31 @@
+.hero_section{
+    padding: 1.5rem 3rem;
+}
+
+.hero_container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.hero_left {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  background-color: gray;
+
+}
+.hero_right_top {
+  grid-column: 2;
+  background-color: red;
+
+}
+.hero_right_bottom {
+  grid-column: 2;
+  background-color: blue;
+}
+
+.hero_image{
+    height: 100%;
+    width: 100%;
+}
