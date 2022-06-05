@@ -1,0 +1,23 @@
+.bottom_most_section {
+  padding: 2rem 3rem;
+  width: 100%;
+  background-color: #FED700;
+}
+.bottom_most_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.bottom_most_left {
+  color: gray;
+}
+.copy_text{
+    color: black;
+    font-weight: bold;
+}
+.bottom_most_right {
+    display: flex;
+    gap: 1rem;
+color: gray;
+}

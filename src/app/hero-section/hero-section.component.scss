@@ -1,5 +1,5 @@
-.hero_section{
-    padding: 1.5rem 3rem;
+.hero_section {
+  padding: 1.5rem 3rem;
 }
 
 .hero_container {
@@ -13,19 +13,15 @@
   grid-column: 1;
   grid-row: 1 / span 2;
   background-color: gray;
-
 }
 .hero_right_top {
   grid-column: 2;
-  background-color: red;
-
 }
 .hero_right_bottom {
   grid-column: 2;
-  background-color: blue;
 }
 
-.hero_image{
-    height: 100%;
-    width: 100%;
+.hero_image {
+  height: 100%;
+  width: 100%;
 }
