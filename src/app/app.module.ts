@@ -7,6 +7,7 @@ import { HeaderComponentComponent } from './header-component/header-component.co
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { OfferBannerComponent } from './offer-banner/offer-banner.component';
 import { BottomMostFooterComponent } from './bottom-most-footer/bottom-most-footer.component';
+import { BasicFooterComponent } from './basic-footer/basic-footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BottomMostFooterComponent } from './bottom-most-footer/bottom-most-foot
     HeaderComponentComponent,
     HeroSectionComponent,
     OfferBannerComponent,
-    BottomMostFooterComponent
+    BottomMostFooterComponent,
+    BasicFooterComponent
   ],
   imports: [
     BrowserModule,
