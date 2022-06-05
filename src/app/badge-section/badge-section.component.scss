@@ -1,0 +1,10 @@
+.badge_section {
+  background-color: #333e48;
+  padding: 3rem 3rem;
+}
+.badge_container {
+  display: grid;
+  gap: 2rem;
+  justify-items: center;
+  grid-template-columns: repeat(5, 1fr);
+}
