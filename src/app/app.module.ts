@@ -9,6 +9,7 @@ import { OfferBannerComponent } from './offer-banner/offer-banner.component';
 import { BottomMostFooterComponent } from './bottom-most-footer/bottom-most-footer.component';
 import { BasicFooterComponent } from './basic-footer/basic-footer.component';
 import { BadgeSectionComponent } from './badge-section/badge-section.component';
+import { WomenClothingComponent } from './women-clothing/women-clothing.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BadgeSectionComponent } from './badge-section/badge-section.component';
     OfferBannerComponent,
     BottomMostFooterComponent,
     BasicFooterComponent,
-    BadgeSectionComponent
+    BadgeSectionComponent,
+    WomenClothingComponent
   ],
   imports: [
     BrowserModule,
