@@ -10,6 +10,7 @@ import { BottomMostFooterComponent } from './bottom-most-footer/bottom-most-foot
 import { BasicFooterComponent } from './basic-footer/basic-footer.component';
 import { BadgeSectionComponent } from './badge-section/badge-section.component';
 import { WomenClothingComponent } from './women-clothing/women-clothing.component';
+import { MenClothingComponent } from './men-clothing/men-clothing.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WomenClothingComponent } from './women-clothing/women-clothing.componen
     BottomMostFooterComponent,
     BasicFooterComponent,
     BadgeSectionComponent,
-    WomenClothingComponent
+    WomenClothingComponent,
+    MenClothingComponent
   ],
   imports: [
     BrowserModule,
