@@ -1,45 +1,45 @@
-.men_clothing_section {
+.mobile_phone_section {
   padding: 3rem 3rem;
 }
-.men_clothing_container {
+.mobile_phone_container {
   display: grid;
   grid-template-columns: 1.5fr 2fr;
   border: 1px solid rgb(197, 192, 192);
 }
-.men_left {
+.mobile_left {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
   width: 100%;
   height: 100%;
 }
-.men_left_first {
+.mobile_left_first {
   width: 100%;
   height: 100%;
   padding-bottom: 1.1rem;
 }
-.men_cloth_list {
+.mobile_phone_list {
   display: flex;
   flex-direction: column;
   position: relative;
 }
-.men_cloth_list::after {
+.mobile_phone_list::after {
   content: "";
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: url(../../assets/images/man_bg-1.jpeg);
+  background-image: url(../../assets/images/phone_bg-1.jpeg);
   z-index: -10;
 }
-.men_cloth_list::before {
+.mobile_phone_list::before {
   opacity: 0.8;
   content: "";
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #947970;
+  background-color: #1a6ab0;
   z-index: -9;
 }
-.men_cloth_list a,
+.mobile_phone_list a,
 h3 {
   color: black;
   font-weight: 400;
@@ -47,16 +47,16 @@ h3 {
   text-align: center;
 }
 
-.men_left_second {
+.mobile_left_second {
   height: 90%;
   width: 100%;
 }
-.men_left_second img {
+.mobile_left_second img {
   height: 100%;
   width: 100%;
 }
 
-.men_right {
+.mobile_right {
   display: flex;
   flex-direction: column;
   padding: 1rem 0rem;
@@ -64,7 +64,7 @@ h3 {
   height: 100%;
   padding: 1.5rem 0rem;
 }
-.men_right_all {
+.mobile_right_all {
   width: 100%;
   height: 100%;
 }
@@ -93,6 +93,12 @@ h3 {
 }
 
 small{
-  color: #055499;
-  font-weight: bolder;
+    color: #055499;
+    font-weight: bolder;
 }
+span{
+  text-decoration: line-through;
+  color: gray;
+  margin-right: .5rem;
+}
+

@@ -11,6 +11,10 @@ import { BasicFooterComponent } from './basic-footer/basic-footer.component';
 import { BadgeSectionComponent } from './badge-section/badge-section.component';
 import { WomenClothingComponent } from './women-clothing/women-clothing.component';
 import { MenClothingComponent } from './men-clothing/men-clothing.component';
+import { MobilePhoneComponent } from './mobile-phone/mobile-phone.component';
+import { ComputerLaptopComponent } from './computer-laptop/computer-laptop.component';
+import { HandWatchComponent } from './hand-watch/hand-watch.component';
+import { GadgetSectionComponent } from './gadget-section/gadget-section.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { MenClothingComponent } from './men-clothing/men-clothing.component';
     BasicFooterComponent,
     BadgeSectionComponent,
     WomenClothingComponent,
-    MenClothingComponent
+    MenClothingComponent,
+    MobilePhoneComponent,
+    ComputerLaptopComponent,
+    HandWatchComponent,
+    GadgetSectionComponent
   ],
   imports: [
     BrowserModule,
