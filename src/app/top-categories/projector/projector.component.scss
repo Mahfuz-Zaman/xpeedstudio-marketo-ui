@@ -1,0 +1,59 @@
+.gadget_section {
+    overflow: hidden;
+     height: 100%;
+     width: 100%;
+   }
+   .gadget_container {
+     // background-color: green;
+     width: 100%;
+     height: 100%;
+   }
+ 
+   .gadget_cards {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     margin-top: 1rem;
+     row-gap: 1rem;
+   }
+   
+   .single_card {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     width: 100%;
+     height: 100%;
+     
+     background-color: white;
+     border-right: .5px solid #ccbaba80;
+     
+   }
+   .product_img img {
+     height: 100%;
+     width: 100%;
+     padding: 1rem 1rem;
+   }
+   .rating {
+     display: flex;
+     justify-content: space-between;
+     padding-right: 1rem;
+   }
+   .other_item {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     padding: 1rem 0rem;
+     
+   }
+   .other_item h4{
+font-weight: bolder;
+   }
+   .rating p {
+     color: #FED739;
+   }
+   span {
+     text-decoration: line-through;
+     color: gray;
+   }
+   b{
+       font-weight: 900;
+       color: blue;
+   }

@@ -1,0 +1,36 @@
+.category_section {
+  height: 100%;
+  width: 100%;
+}
+
+.mat-tab-group {
+  margin-bottom: 48px;
+}
+
+.category_container {
+  padding: 3rem 3rem;
+  position: relative;
+}
+
+.section_heading{
+position: absolute;
+top: 55px;
+font-size: bold;
+}
+::ng-deep .mat-tab-group.mat-primary .mat-ink-bar {
+  background-color: orange;
+  font-size: larger;
+
+}
+
+::ng-deep .mat-focus-indicator:focus {
+    color: orange
+}
+
+::ng-deep .mat-tab-label:hover {
+    // color:#969696;
+    color: orange;
+}
+::ng-deep .mat-tab-label .mat-tab-label-content{
+    font-size: 1rem;
+}

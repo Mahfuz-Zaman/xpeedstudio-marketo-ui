@@ -1,0 +1,77 @@
+.hot_sell_section {
+  padding: 3rem 3rem;
+  background-color: #f9f9f9;
+}
+.hot_sell_container {
+  display: grid;
+  grid-template-columns: 2.5fr 4fr;
+  height: 100%;
+  width: 100%;
+}
+.left_hot_sell {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.left_first {
+  padding: 2rem;
+  background-image: url(../../assets/images/hand_watch1-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+  border-radius: 6px;
+  background-color: white;
+  transition: ease-in-out 0.5s;
+}
+.left_first:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgb(199, 193, 193), -1px -1px 10px rgb(199, 193, 193);
+}
+
+.left_first p {
+  color: blue;
+  font-weight: bolder;
+}
+.left_first a {
+  padding: 1rem 2.5rem;
+  border-radius: 8px;
+  background-color: #fed700;
+  color: white;
+}
+.left_first a:hover {
+  background-color: #83b735;
+  transition: ease 0.5s;
+}
+
+.left_second {
+  padding: 2rem;
+  background-image: url(../../assets/images/laptop1-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  margin-right: 30px;
+  transition: ease-in-out 0.5s;
+}
+.left_second p {
+  color: blue;
+  font-weight: bolder;
+}
+.left_second a {
+  padding: 1rem 2.5rem;
+  border-radius: 8px;
+  background-color: #fed700;
+  color: white;
+}
+.left_second:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgb(199, 193, 193), -1px -1px 10px rgb(199, 193, 193);
+}
+// --------------------
+.right_hot_sell {
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+}
