@@ -1,6 +1,7 @@
 .hot_sell_section {
-  padding: 3rem 3rem;
   background-color: #f9f9f9;
+  padding: 3rem;
+  
 }
 .hot_sell_container {
   display: grid;
@@ -9,6 +10,7 @@
   width: 100%;
 }
 .left_hot_sell {
+  padding-top: 2rem;
   height: 100%;
   width: 100%;
   display: flex;
@@ -71,7 +73,42 @@
 }
 // --------------------
 .right_hot_sell {
-  background-color: blue;
+  // background-color: blue;
   height: 100%;
   width: 100%;
+}
+
+.category_section {
+  height: 100%;
+  width: 100%;
+ 
+}
+
+.mat-tab-group {
+  margin-bottom: 48px;
+}
+
+.category_container {
+  // padding: 3rem 3rem;
+  position: relative;
+}
+
+.section_heading {
+  position: absolute;
+  top: 20px;
+  font-size: bold;
+}
+::ng-deep .mat-tab-group.mat-primary .mat-ink-bar {
+  background-color: orange;
+}
+
+::ng-deep .mat-focus-indicator:focus {
+  color: orange;
+}
+
+::ng-deep .mat-tab-label:hover {
+  color: orange;
+}
+::ng-deep .mat-tab-label .mat-tab-label-content {
+  font-size: 1rem;
 }

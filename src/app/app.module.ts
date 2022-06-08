@@ -25,6 +25,9 @@ import { HeadphoneComponent } from './top-categories/headphone/headphone.compone
 import { LightComponent } from './top-categories/light/light.component';
 import { LaptopComponent } from './top-categories/laptop/laptop.component';
 import { HotSellComponent } from './hot-sell/hot-sell.component';
+import { SixteenComponent } from './hot-sell/sixteen/sixteen.component';
+import { TwentyfiveComponent } from './hot-sell/twentyfive/twentyfive.component';
+import { ThirtythreeComponent } from './hot-sell/thirtythree/thirtythree.component';
 
 
 @NgModule({
@@ -48,7 +51,10 @@ import { HotSellComponent } from './hot-sell/hot-sell.component';
     HeadphoneComponent,
     LightComponent,
     LaptopComponent,
-    HotSellComponent
+    HotSellComponent,
+    SixteenComponent,
+    TwentyfiveComponent,
+    ThirtythreeComponent
   ],
   imports: [
     BrowserModule,
