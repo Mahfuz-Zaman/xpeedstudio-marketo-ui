@@ -1,7 +1,53 @@
 <div class="hero_section">
     <div class="hero_container">
-        <div class="hero_left"><img class="hero_image" src="../../assets/images/slider_img.png" alt=""></div>
-        <div class="hero_right_top"><img class="hero_image" src="../../assets/images/banner-campaign-51-1-1.png" alt=""></div>
-        <div class="hero_right_bottom"><img class="hero_image" src="../../assets/images/banner-campaign-61-1.jpeg" alt=""></div>
+
+        <div class="hero_left">
+            <app-carousel [images]="images"
+            [autoSlide]="true"
+          ></app-carousel>
+        </div>
+        <div class="hero_right_top"><img class="hero_image" src="../../assets/images/banner-campaign-51-1-1.png" alt="">
+        </div>
+        <div class="hero_right_bottom"><img class="hero_image" src="../../assets/images/banner-campaign-61-1.jpeg"
+                alt=""></div>
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <swiper
+ [slidesPerView]="1"
+ [spaceBetween]="50"
+ (swiper)="onSwiper($event)"
+ (slideChange)="onSlideChange()"
+ [navigation]="false"
+ [pagination]="{ clickable: true }"
+ [scrollbar]="{ draggable: true }"
+class="slider_content"
+>
+<ng-template swiperSlide> <img src="../../assets/images/slider_img.png" alt=""> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/slider_img.png" alt=""> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/slider_img.png" alt=""> </ng-template>
+
+
+
+</swiper> -->

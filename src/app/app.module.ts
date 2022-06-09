@@ -16,9 +16,9 @@ import { ComputerLaptopComponent } from './computer-laptop/computer-laptop.compo
 import { HandWatchComponent } from './hand-watch/hand-watch.component';
 import { GadgetSectionComponent } from './gadget-section/gadget-section.component';
 import { TopCategoriesComponent } from './top-categories/top-categories.component';
-import {MatTabsModule} from '@angular/material/tabs';
+import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { ProjectorComponent } from './top-categories/projector/projector.component';
 import { GoogleGlassComponent } from './top-categories/google-glass/google-glass.component';
 import { HeadphoneComponent } from './top-categories/headphone/headphone.component';
@@ -29,6 +29,7 @@ import { SixteenComponent } from './hot-sell/sixteen/sixteen.component';
 import { TwentyfiveComponent } from './hot-sell/twentyfive/twentyfive.component';
 import { ThirtythreeComponent } from './hot-sell/thirtythree/thirtythree.component';
 
+import { CarouselModule } from './carousel/carousel.module';
 
 @NgModule({
   declarations: [
@@ -54,16 +55,18 @@ import { ThirtythreeComponent } from './hot-sell/thirtythree/thirtythree.compone
     HotSellComponent,
     SixteenComponent,
     TwentyfiveComponent,
-    ThirtythreeComponent
+    ThirtythreeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatTabsModule,
-    BrowserAnimationsModule, 
-    MatFormFieldModule
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    
+    CarouselModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
