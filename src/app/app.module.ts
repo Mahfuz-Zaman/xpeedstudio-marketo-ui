@@ -28,8 +28,11 @@ import { HotSellComponent } from './hot-sell/hot-sell.component';
 import { SixteenComponent } from './hot-sell/sixteen/sixteen.component';
 import { TwentyfiveComponent } from './hot-sell/twentyfive/twentyfive.component';
 import { ThirtythreeComponent } from './hot-sell/thirtythree/thirtythree.component';
-
 import { CarouselModule } from './carousel/carousel.module';
+import { RecentProductsComponent } from './recent-products/recent-products.component';
+import { FeaturedComponent } from './recent-products/featured/featured.component';
+import { TrendComponent } from './recent-products/trend/trend.component';
+import { SaleComponent } from './recent-products/sale/sale.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +59,10 @@ import { CarouselModule } from './carousel/carousel.module';
     SixteenComponent,
     TwentyfiveComponent,
     ThirtythreeComponent,
+    RecentProductsComponent,
+    FeaturedComponent,
+    TrendComponent,
+    SaleComponent,
   ],
   imports: [
     BrowserModule,
@@ -63,8 +70,8 @@ import { CarouselModule } from './carousel/carousel.module';
     MatTabsModule,
     BrowserAnimationsModule,
     MatFormFieldModule,
-    
-    CarouselModule
+
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

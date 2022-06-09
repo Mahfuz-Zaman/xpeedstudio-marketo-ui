@@ -1,0 +1,18 @@
+.recent_product_section {
+  padding: 3rem 3rem;
+  width: 100%;
+  height: auto;
+}
+.mat-tab-group {
+    margin-bottom: 48px;
+  }
+.recent_product_container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.recent_left{
+    // background-color: green;
+}
+.recent_right{
+    // background-color: blue;
+}
