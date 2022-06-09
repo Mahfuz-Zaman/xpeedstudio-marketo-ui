@@ -116,20 +116,21 @@
 }
 
 .bottom_right {
-  // line-height: 0%;
   padding: 0.7rem 3rem;
   border: 1px solid gray;
   border-radius: 5px;
   text-align: center;
-  color: rgba(43, 43, 245, 0.692);
+  color: rgba(0, 0, 245, 0.692);
   font-family: "Rubik", sans-serif;
 }
 .bottom_right > h3 {
   margin: 0;
+  font-weight: bolder;
 }
 
 .bottom_right div {
   color: #b6aaaa;
+  font-weight: bolder;
 }
 
 .bottom_right:hover {
