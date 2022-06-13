@@ -33,6 +33,8 @@ import { RecentProductsComponent } from './recent-products/recent-products.compo
 import { FeaturedComponent } from './recent-products/featured/featured.component';
 import { TrendComponent } from './recent-products/trend/trend.component';
 import { SaleComponent } from './recent-products/sale/sale.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ProductsService } from './services/products-service.service';
 
 @NgModule({
   declarations: [
@@ -66,6 +68,7 @@ import { SaleComponent } from './recent-products/sale/sale.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     MatTabsModule,
     BrowserAnimationsModule,
@@ -73,7 +76,7 @@ import { SaleComponent } from './recent-products/sale/sale.component';
 
     CarouselModule,
   ],
-  providers: [],
+  providers: [ProductsService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

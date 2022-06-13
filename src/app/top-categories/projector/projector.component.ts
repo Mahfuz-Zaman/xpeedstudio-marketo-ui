@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { TopProduct } from 'src/app/interfaces/top-product.interface';
+import { ProductsService } from 'src/app/services/products-service.service';
+
 
 @Component({
   selector: 'app-projector',
@@ -7,9 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectorComponent implements OnInit {
 
-  constructor() { }
+  projectorProducts:TopProduct[]=[];
+
+  constructor(private productsService: ProductsService) { }
 
   ngOnInit(): void {
+    this.getAllProjectorProducts();
+  }
+
+  getAllProjectorProducts(){
+    this.productsService.getAllProjectorTopCatProducts()
+    .subscribe(response => this.projectorProducts = response.data);
   }
 
 }
